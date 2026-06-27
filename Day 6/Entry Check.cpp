@@ -2,15 +2,14 @@
 using namespace std;
 
 int main(){
-	int r;
-	cin>>r;
+	int x;
+	cin>>x;
 	
-	if(r>4){
-		cout<<"No"<<endl;
+	if(x>9){
+		cout<<"YES"<<endl;
 	}else{
-		cout<<"Yes"<<endl;
+		cout<<"NO"<<endl;
 	}
 	
 	return 0;
 }
-

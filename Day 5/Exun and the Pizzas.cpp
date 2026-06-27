@@ -2,15 +2,16 @@
 using namespace std;
 
 int main(){
-	int r;
-	cin>>r;
+	int n,k,r;
+	cin>>n>>k>>r;
 	
-	if(r>4){
-		cout<<"No"<<endl;
+	if(k>n){
+		cout<<0<<endl;
 	}else{
-		cout<<"Yes"<<endl;
+		cout<<(n-k)*r<<endl;
 	}
 	
 	return 0;
 }
+
 

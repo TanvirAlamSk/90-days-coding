@@ -2,15 +2,16 @@
 using namespace std;
 
 int main(){
-	int r;
-	cin>>r;
+	int x,y;
+	cin>>x>>y;
 	
-	if(r>4){
-		cout<<"No"<<endl;
+	if(x*y<100){
+		cout<<"NO"<<endl;
 	}else{
-		cout<<"Yes"<<endl;
+		cout<<"YES"<<endl;
 	}
 	
 	return 0;
 }
+
 

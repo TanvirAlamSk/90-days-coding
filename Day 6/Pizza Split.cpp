@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-	int r;
-	cin>>r;
+	int x;
+	cin>>x;
 	
-	if(r>4){
-		cout<<"No"<<endl;
+	if(x%2==0){
+		cout<<1<<endl;
 	}else{
-		cout<<"Yes"<<endl;
+		cout<<2<<endl;
 	}
 	
 	return 0;
